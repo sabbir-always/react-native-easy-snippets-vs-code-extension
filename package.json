@@ -1,7 +1,7 @@
 {
   "name": "react-native-easy-snippets",
   "displayName": "React Native Easy Snippets",
-  "description": "React Native Easy Snippets Development By Sabbir Hosain",
+  "description": "A collection of React Native & Expo snippets for faster development.",
   "author": {
     "name": "MD SABBIR HOSAIN",
     "email": "contact.sabbirhosain@gmail.com",
@@ -13,6 +13,7 @@
     "url": "https://github.com/sabbir-always/react-native-easy-snippets-vs-code-extension"
   },
   "publisher": "MDSABBIRHOSAIN",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.109.0"
   },

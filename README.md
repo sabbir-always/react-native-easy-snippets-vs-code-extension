@@ -2,16 +2,16 @@
 
 A collection of useful React Native & Expo snippets for faster development.
 
-## Snippets Included
-- Screen boilerplates
-- Expo SafeArea & ScrollView screens
-- React Native View & Text
-- Inputs, Buttons, Images
-- NativeWind / className support
+## Features
+- React Native View & Text boilerplates
+- Screen templates: SafeAreaView, ScrollView
+- Buttons, Inputs, Images
+- Supports className / NativeWind styling
 
 ## Usage
-Type the snippet prefix (example: `screenview`, `viewc`, `texts`) and press Enter.
+Type the snippet prefix (example: `screenview`, `viewc`, `texts`) in a `.tsx` or `.jsx` file and press Enter.
 
 ## Author
-Sabbir
-# react-native-easy-snippets-vs-code-extension
+Name : Md Sabbir Hosain
+Contact : contact.sabbirhosain@gmail.com
+
