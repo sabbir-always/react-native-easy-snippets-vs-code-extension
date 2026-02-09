@@ -1,8 +1,17 @@
 {
   "name": "react-native-easy-snippets",
-  "displayName": "react native easy snippets",
-  "description": "react native easy snippets",
+  "displayName": "React Native Easy Snippets",
+  "description": "React Native Easy Snippets Development By Sabbir Hosain",
+  "author": {
+    "name": "MD SABBIR HOSAIN",
+    "email": "contact.sabbirhosain@gmail.com",
+    "url": "https://sabbirhosain.vercel.app"
+  },
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sabbir-always/react-native-easy-snippets-vs-code-extension"
+  },
   "publisher": "MDSABBIRHOSAIN",
   "engines": {
     "vscode": "^1.109.0"
