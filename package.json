@@ -1,0 +1,33 @@
+{
+  "name": "react-native-easy-snippets",
+  "displayName": "react native easy snippets",
+  "description": "react native easy snippets",
+  "version": "0.0.1",
+  "publisher": "MDSABBIRHOSAIN",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
