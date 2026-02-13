@@ -89,13 +89,6 @@
         ],
         "description": "React Native Router component boilerplate"
     },
-    "React Native View": {
-        "prefix": "view",
-        "body": [
-            "<View>$0</View>"
-        ],
-        "description": "React Native View"
-    },
     "React Native View ClassName": {
         "prefix": "view-with-class",
         "body": [
@@ -109,13 +102,6 @@
             "<View style={{}}>$1</View>"
         ],
         "description": "React Native View with style object"
-    },
-    "React Native Text": {
-        "prefix": "text",
-        "body": [
-            "<Text>$1</Text>"
-        ],
-        "description": "React Native Text"
     },
     "React Native Text ClassName": {
         "prefix": "text-with-class",
