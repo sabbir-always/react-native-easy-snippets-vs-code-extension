@@ -1,6 +1,6 @@
 {
     "React Native Screen View": {
-        "prefix": "screenview",
+        "prefix": "screen-view",
         "body": [
             "import { View, Text } from 'react-native';",
             "import React from 'react';",
@@ -16,7 +16,7 @@
         "description": "Screen with only View and Text"
     },
     "React Native Screen SafeArea": {
-        "prefix": "screensafe",
+        "prefix": "screen-safe-area-view",
         "body": [
             "import { SafeAreaView } from 'react-native-safe-area-context';",
             "import { View, Text } from 'react-native';",
@@ -35,7 +35,7 @@
         "description": "Screen with SafeAreaView, View, and Text"
     },
     "React Native Screen Scroll": {
-        "prefix": "screenscroll",
+        "prefix": "screen-scroll-view",
         "body": [
             "import { ScrollView, View, Text } from 'react-native';",
             "import React from 'react';",
@@ -53,7 +53,7 @@
         "description": "Screen with ScrollView, View, and Text"
     },
     "React Native Screen SafeScroll": {
-        "prefix": "screensafescroll",
+        "prefix": "screen-safe-area-with-scroll-view",
         "body": [
             "import { SafeAreaView } from 'react-native-safe-area-context';",
             "import { ScrollView, View, Text } from 'react-native';",
@@ -97,14 +97,14 @@
         "description": "React Native View"
     },
     "React Native View ClassName": {
-        "prefix": "viewclass",
+        "prefix": "view-with-class",
         "body": [
             "<View className=\"$2\">$1</View>"
         ],
         "description": "React Native View with className"
     },
     "React Native View Style": {
-        "prefix": "viewstyle",
+        "prefix": "view-with-style",
         "body": [
             "<View style={{}}>$1</View>"
         ],
@@ -118,98 +118,98 @@
         "description": "React Native Text"
     },
     "React Native Text ClassName": {
-        "prefix": "textclass",
+        "prefix": "text-with-class",
         "body": [
             "<Text className=\"$2\">$1</Text>"
         ],
         "description": "React Native Text with className"
     },
     "React Native Text Style": {
-        "prefix": "textstyle",
+        "prefix": "text-with-style",
         "body": [
             "<Text style={{}}>$1</Text>"
         ],
         "description": "React Native Text with style object"
     },
     "React Native Local Image": {
-        "prefix": "imgsrc",
+        "prefix": "img-with-src",
         "body": [
             "<Image className=\"\" source={require('@/assets/images$1')} style={{ width: 100, height: 100, resizeMode: 'cover' }} />"
         ],
         "description": "React Native local image using require"
     },
     "React Native Network Image": {
-        "prefix": "imgnet",
+        "prefix": "img-with-net",
         "body": [
             "<Image className=\"\" source={{ uri: 'https://via.placeholder.com/150$1' }} style={{ width: 100, height: 100, resizeMode: 'cover' }} />"
         ],
         "description": "React Native network image using uri"
     },
     "React Native Button Inline": {
-        "prefix": "btn",
+        "prefix": "btn-normal",
         "body": [
             "<Button title=\"Click Me$1\" onPress={() => alert('Button Clicked')} color=\"red\" />"
         ],
         "description": "React Native Button inline"
     },
     "React Native Pressable Button Route": {
-        "prefix": "pressableroute",
+        "prefix": "pressable-btn",
         "body": [
             "<Pressable onPress={() => router.push('/(tabs)/home')} className=\"$2\"><Text className=\"$3\">Pressable Route$1</Text></Pressable>"
         ],
         "description": "React Native Pressable button with route"
     },
     "React Native TouchableOpacity Inline": {
-        "prefix": "touchable",
+        "prefix": "touchable-btn",
         "body": [
             "<TouchableOpacity onPress={() => alert('Button Clicked')} className=\"$2\"><Text className=\"$3\">TouchAbleOpacity$1</Text></TouchableOpacity>"
         ],
         "description": "React Native TouchableOpacity button with styling"
     },
     "React Native Text Input Inline": {
-        "prefix": "inputtext",
+        "prefix": "input-text-field",
         "body": [
             "<TextInput keyboardType='default' placeholder=\"Input Text\" />"
         ],
         "description": "React Native Text Input (default text)"
     },
     "React Native Email Input Inline": {
-        "prefix": "inputemail",
+        "prefix": "input-email-field",
         "body": [
             "<TextInput keyboardType='email-address' placeholder=\"Input Email\" autoCapitalize='none' className=\"$1\" />"
         ],
         "description": "React Native Email Input"
     },
     "React Native Number Input Inline": {
-        "prefix": "inputnumber",
+        "prefix": "input-number-field",
         "body": [
             "<TextInput keyboardType='numeric' placeholder=\"Input Number\" className=\"$1\" />"
         ],
         "description": "React Native Number Input"
     },
     "React Native Phone Input Inline": {
-        "prefix": "inputphone",
+        "prefix": "input-phone-field",
         "body": [
             "<TextInput keyboardType='phone-pad' placeholder=\"Input Phone\" className=\"$1\" />"
         ],
         "description": "React Native Phone Input"
     },
     "React Native Password Input Inline": {
-        "prefix": "inputpassword",
+        "prefix": "input-password-field",
         "body": [
             "<TextInput keyboardType='default' placeholder=\"Input Password\" autoCapitalize='none' className=\"$1\" />"
         ],
         "description": "React Native Password Input"
     },
     "React Native SafeAreaView Inline": {
-        "prefix": "safearea",
+        "prefix": "safe-area-view-only",
         "body": [
             "<SafeAreaView edges={['left','right']} style={{ flex: 1, backgroundColor: 'red' }}>$0</SafeAreaView>"
         ],
         "description": "React Native SafeAreaView with background color and padding"
     },
     "React Native ScrollView Inline": {
-        "prefix": "scrollview",
+        "prefix": "scroll-view-only",
         "body": [
             "<ScrollView className=\"bg-white\" style={{ flex: 1 }} contentContainerStyle={{ paddingHorizontal: 15 }}>$0</ScrollView>"
         ],
